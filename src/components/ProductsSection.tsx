@@ -2,13 +2,22 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { products, Product } from "@/data/products";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Heart } from "lucide-react";
 
 const ProductCard = ({ p }: { p: Product }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isLiked, setIsLiked] = useState(false);
 
   return (
     <div className="bg-card rounded-xl border border-border overflow-hidden hover:shadow-2xl transition-all group flex flex-col h-full relative">
+      <button 
+        onClick={() => setIsLiked(!isLiked)}
+        className="absolute top-4 right-4 z-20 p-2 rounded-full bg-white/80 backdrop-blur-sm shadow-sm hover:bg-white transition-all"
+        aria-label="Like product"
+      >
+        <Heart size={20} className={isLiked ? "fill-red-500 text-red-500" : "text-muted-foreground"} />
+      </button>
+      
       <div className="aspect-square overflow-hidden relative">
         <img src={p.img} alt={p.title} loading="lazy" width={640} height={640} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
         <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors" />
