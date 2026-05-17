@@ -21,6 +21,45 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    slug: "woven-labels",
+    title: "Woven Labels",
+    desc: "Premium quality woven labels for branding and garment identification. Durable and elegant.",
+    img: wovenLabels,
+    details: [
+      "High-definition weaving for intricate logos",
+      "Soft and skin-friendly materials",
+      "Excellent wash and fade resistance",
+      "Available in various folds and finishes",
+      "Customizable colors and sizes",
+    ],
+  },
+  {
+    slug: "satin-label",
+    title: "Satin Label",
+    desc: "Soft and premium satin labels for garments, providing a luxurious feel and durable branding.",
+    img: satinLabel,
+    details: [
+      "Ultra-soft finish for skin comfort",
+      "High-definition printing of logos and text",
+      "Wash-resistant and durable",
+      "Available in various widths",
+      "Customized colors and designs",
+    ],
+  },
+  {
+    slug: "taffeta-label",
+    title: "Taffeta Label",
+    desc: "Durable and crisp taffeta labels, ideal for care instructions and branding in textiles.",
+    img: taffetaLabel,
+    details: [
+      "Crisp and clear print finish",
+      "Excellent durability for industrial washing",
+      "Ideal for care labels and wash instructions",
+      "Cost-effective garment labeling",
+      "High-quality nylon or polyester taffeta",
+    ],
+  },
+  {
     slug: "multi-color-barcode",
     title: "Multi Color Barcode Label",
     desc: "Premium multi-color barcode labels for branding and identification. Available in custom designs.",
@@ -99,32 +138,6 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "satin-label",
-    title: "Satin Label",
-    desc: "Soft and premium satin labels for garments, providing a luxurious feel and durable branding.",
-    img: satinLabel,
-    details: [
-      "Ultra-soft finish for skin comfort",
-      "High-definition printing of logos and text",
-      "Wash-resistant and durable",
-      "Available in various widths",
-      "Customized colors and designs",
-    ],
-  },
-  {
-    slug: "taffeta-label",
-    title: "Taffeta Label",
-    desc: "Durable and crisp taffeta labels, ideal for care instructions and branding in textiles.",
-    img: taffetaLabel,
-    details: [
-      "Crisp and clear print finish",
-      "Excellent durability for industrial washing",
-      "Ideal for care labels and wash instructions",
-      "Cost-effective garment labeling",
-      "High-quality nylon or polyester taffeta",
-    ],
-  },
-  {
     slug: "tags",
     title: "Tags",
     desc: "Hang tags, price tags, and product tags in custom shapes, sizes, and finishes.",
@@ -165,19 +178,6 @@ export const products: Product[] = [
       "Rigid gift boxes",
       "E-commerce mailer boxes",
       "Food-grade packaging options",
-    ],
-  },
-  {
-    slug: "woven-labels",
-    title: "Woven Labels",
-    desc: "Premium quality woven labels for branding and garment identification. Durable and elegant.",
-    img: wovenLabels,
-    details: [
-      "High-definition weaving for intricate logos",
-      "Soft and skin-friendly materials",
-      "Excellent wash and fade resistance",
-      "Available in various folds and finishes",
-      "Customizable colors and sizes",
     ],
   },
 ];
