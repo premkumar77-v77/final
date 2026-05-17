@@ -14,7 +14,7 @@ const HeroSection = () => (
         <span className="text-accent-brand">Solutions for Your Business</span>
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto mb-10 md:mb-14 px-4 leading-relaxed">
-        Barcode Labels, Stickers, Garment Labels, Tags & Packaging Boxes — Trusted by 500+ businesses across India.
+        Barcode Labels, Stickers, Garment Labels, Printing Labels, Tags & Packaging Boxes — Trusted by 500+ businesses across India.
       </p>
     </div>
   </section>

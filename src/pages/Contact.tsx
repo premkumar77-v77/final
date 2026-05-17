@@ -74,7 +74,7 @@ const Contact = () => {
                 <h2 className="text-3xl font-bold mb-4">VINS ENTERPRISES</h2>
                 <p className="text-accent-brand font-semibold text-xl mb-6 uppercase tracking-wider">Labels and solutions</p>
                 <p className="text-primary-foreground/80 text-lg leading-relaxed mb-8">
-                  Manufacturer and supplier of high-quality barcode labels, stickers, garment labels, tags, and packaging solutions.
+                  Manufacturer and supplier of high-quality barcode labels, stickers, garment labels, printing labels, tags, and packaging solutions.
                 </p>
                 <div className="pt-6 border-t border-primary-foreground/10">
                   <p className="text-sm font-mono opacity-60 uppercase tracking-widest">GSTIN: 33ADQPL4730P2Z0</p>

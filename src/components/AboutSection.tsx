@@ -29,7 +29,7 @@ const AboutSection = () => (
         <p className="text-muted-foreground max-w-4xl mx-auto text-lg md:text-xl leading-relaxed font-medium">
           With 30 years of experience. Having well experienced and talented staffs.
           Our parent company is AKP Labels, has been in the field over 30 years, building a legacy of trust and excellence.
-          VINS Enterprises is a leading manufacturer and supplier of barcode labels, stickers, garment labels, tags, and packaging solutions, delivering premium quality products tailored to your business needs with competitive pricing and timely delivery.
+          VINS Enterprises is a leading manufacturer and supplier of barcode labels, stickers, garment labels, printing labels, tags, and packaging solutions, delivering premium quality products tailored to your business needs with competitive pricing and timely delivery.
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
