@@ -10,6 +10,9 @@ import productTags from "@/assets/product-tags.jpg";
 import productStickers from "@/assets/roductphoto/paper-garment-stickers-1000x1000.webp";
 import productBoxes from "@/assets/product-boxes.jpg";
 import cromoSticker from "@/assets/roductphoto/cromo sticker.webp";
+import clearSticker from "@/assets/roductphoto/Clear Sticker.avif";
+import paperSticker from "@/assets/roductphoto/Paper Sticker.webp";
+import syntheticSticker from "@/assets/roductphoto/Synthetic Sticker.avif";
 
 export interface Product {
   slug: string;
@@ -178,6 +181,45 @@ export const products: Product[] = [
       "Strong adhesive suitable for various surfaces",
       "Custom sizes and shapes available",
       "Ideal for FMCG and retail product labeling",
+    ],
+  },
+  {
+    slug: "clear-sticker",
+    title: "Clear Sticker",
+    desc: "Transparent stickers that provide a 'no-label' look, ideal for glass and plastic packaging.",
+    img: clearSticker,
+    details: [
+      "Crystal clear transparency",
+      "Water and oil resistant",
+      "Perfect for premium product branding",
+      "Durable adhesive with no residue",
+      "Available in custom shapes",
+    ],
+  },
+  {
+    slug: "paper-sticker",
+    title: "Paper Sticker",
+    desc: "Versatile and eco-friendly paper stickers for general purpose labeling and packaging.",
+    img: paperSticker,
+    details: [
+      "Cost-effective labeling solution",
+      "High-quality matte or gloss finish",
+      "Easy to write on and customize",
+      "Strong permanent adhesive",
+      "Ideal for boxes, bags, and envelopes",
+    ],
+  },
+  {
+    slug: "synthetic-sticker",
+    title: "Synthetic Sticker",
+    desc: "Ultra-durable synthetic stickers designed to withstand harsh environments and chemicals.",
+    img: syntheticSticker,
+    details: [
+      "Tear-resistant and highly durable",
+      "Heat and chemical resistant",
+      "Ideal for industrial and outdoor use",
+      "Long-lasting print quality",
+      "Weatherproof and waterproof",
     ],
   },
 ];
