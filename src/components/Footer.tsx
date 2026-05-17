@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => (
   <footer className="bg-primary py-10 border-t border-primary-foreground/10">
     <div className="container mx-auto px-4">
@@ -19,11 +21,11 @@ const Footer = () => (
         <div className="flex flex-col items-center sm:items-start">
           <p className="text-primary-foreground font-bold text-lg mb-4 underline decoration-accent underline-offset-8">Quick Links</p>
           <nav className="flex flex-col gap-2 text-primary-foreground/70 text-base font-medium">
-            <a href="/" className="hover:text-accent transition-colors">Home</a>
-            <a href="/about" className="hover:text-accent transition-colors">About</a>
-            <a href="/products" className="hover:text-accent transition-colors">Products</a>
-            <a href="/gallery" className="hover:text-accent transition-colors">Gallery</a>
-            <a href="/contact" className="hover:text-accent transition-colors">Contact</a>
+            <Link to="/" className="hover:text-accent transition-colors">Home</Link>
+            <Link to="/about" className="hover:text-accent transition-colors">About</Link>
+            <Link to="/products" className="hover:text-accent transition-colors">Products</Link>
+            <Link to="/gallery" className="hover:text-accent transition-colors">Gallery</Link>
+            <Link to="/contact" className="hover:text-accent transition-colors">Contact</Link>
           </nav>
         </div>
       </div>
