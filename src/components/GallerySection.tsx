@@ -9,10 +9,6 @@ import taffetaLabel from "@/assets/roductphoto/Taffeta label.jpg";
 import garmentStickers from "@/assets/roductphoto/paper-garment-stickers-1000x1000.webp";
 import productTags from "@/assets/product-tags.jpg";
 import productBoxes from "@/assets/product-boxes.jpg";
-import cromoSticker from "@/assets/roductphoto/cromo sticker.webp";
-import clearSticker from "@/assets/roductphoto/Clear Sticker.avif";
-import paperSticker from "@/assets/roductphoto/Paper Sticker.webp";
-import syntheticSticker from "@/assets/roductphoto/Synthetic Sticker.avif";
 
 const images = [
   { src: multiColorBarcode, alt: "Multi Color Barcode Label" },
@@ -26,10 +22,6 @@ const images = [
   { src: garmentStickers, alt: "Garment Stickers" },
   { src: productTags, alt: "Product Tags" },
   { src: productBoxes, alt: "Packaging Boxes" },
-  { src: cromoSticker, alt: "Cromo Sticker" },
-  { src: clearSticker, alt: "Clear Sticker" },
-  { src: paperSticker, alt: "Paper Sticker" },
-  { src: syntheticSticker, alt: "Synthetic Sticker" },
 ];
 
 const GallerySection = () => (
