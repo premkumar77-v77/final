@@ -140,13 +140,13 @@ export const products: Product[] = [
   {
     slug: "stickers",
     title: "Stickers",
-    desc: "Custom vinyl, paper, and holographic stickers for branding, packaging, and promotions.",
+    desc: "Manufacturer and supplier of high-quality Chromo, Maplitho, Clear Sticker, Synthetic Sticker, Paper Sticker, and other garment stickers.",
     img: productStickers,
     details: [
-      "Custom die-cut vinyl stickers",
-      "Paper stickers for packaging",
-      "Holographic security stickers",
-      "Transparent and metallic stickers",
+      "Chromo and Maplitho stickers",
+      "Clear and Synthetic sticker options",
+      "Paper stickers for versatile packaging",
+      "Specialized garment size stickers",
       "Waterproof and UV-resistant options",
       "Roll and sheet formats available",
     ],
