@@ -9,6 +9,7 @@ import taffetaLabel from "@/assets/roductphoto/Taffeta label.jpg";
 import productTags from "@/assets/product-tags.jpg";
 import productStickers from "@/assets/roductphoto/paper-garment-stickers-1000x1000.webp";
 import productBoxes from "@/assets/product-boxes.jpg";
+import cromoSticker from "@/assets/roductphoto/cromo sticker.webp";
 
 export interface Product {
   slug: string;
@@ -164,6 +165,19 @@ export const products: Product[] = [
       "Rigid gift boxes",
       "E-commerce mailer boxes",
       "Food-grade packaging options",
+    ],
+  },
+  {
+    slug: "cromo-sticker",
+    title: "Cromo Sticker",
+    desc: "High-quality cromo stickers with a gloss finish, perfect for product labeling and branding.",
+    img: cromoSticker,
+    details: [
+      "High-gloss finish for a premium look",
+      "Excellent print quality for vibrant colors",
+      "Strong adhesive suitable for various surfaces",
+      "Custom sizes and shapes available",
+      "Ideal for FMCG and retail product labeling",
     ],
   },
 ];
