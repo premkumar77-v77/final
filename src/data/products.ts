@@ -9,6 +9,7 @@ import taffetaLabel from "@/assets/roductphoto/Taffeta label.jpg";
 import productTags from "@/assets/product-tags.jpg";
 import productStickers from "@/assets/roductphoto/paper-garment-stickers-1000x1000.webp";
 import productBoxes from "@/assets/product-boxes.jpg";
+import wovenLabels from "@/assets/roductphoto/Woven Labels.jpeg";
 
 export interface Product {
   slug: string;
@@ -164,6 +165,19 @@ export const products: Product[] = [
       "Rigid gift boxes",
       "E-commerce mailer boxes",
       "Food-grade packaging options",
+    ],
+  },
+  {
+    slug: "woven-labels",
+    title: "Woven Labels",
+    desc: "Premium quality woven labels for branding and garment identification. Durable and elegant.",
+    img: wovenLabels,
+    details: [
+      "High-definition weaving for intricate logos",
+      "Soft and skin-friendly materials",
+      "Excellent wash and fade resistance",
+      "Available in various folds and finishes",
+      "Customizable colors and sizes",
     ],
   },
 ];

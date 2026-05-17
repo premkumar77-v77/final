@@ -9,6 +9,7 @@ import taffetaLabel from "@/assets/roductphoto/Taffeta label.jpg";
 import garmentStickers from "@/assets/roductphoto/paper-garment-stickers-1000x1000.webp";
 import productTags from "@/assets/product-tags.jpg";
 import productBoxes from "@/assets/product-boxes.jpg";
+import wovenLabels from "@/assets/roductphoto/Woven Labels.jpeg";
 
 const images = [
   { src: multiColorBarcode, alt: "Multi Color Barcode Label" },
@@ -22,6 +23,7 @@ const images = [
   { src: garmentStickers, alt: "Garment Stickers" },
   { src: productTags, alt: "Product Tags" },
   { src: productBoxes, alt: "Packaging Boxes" },
+  { src: wovenLabels, alt: "Woven Labels" },
 ];
 
 const GallerySection = () => (
